@@ -40,15 +40,15 @@ sed -i.DOS -e 's/\r//g' Changes
 sed -i.DOS -e 's/\r//g' README
 
 %build
-%__perl Build.PL installdirs=vendor
-./Build
+%__perl Makefile.PL installdirs=vendor
+%make
 
 %check
-./Build test
+make test
 
 %install
 %{__rm} -rf %{buildroot}
-./Build install destdir=%{buildroot}
+%makeinstall_std
 
 %files
 %defattr(-,root,root)
