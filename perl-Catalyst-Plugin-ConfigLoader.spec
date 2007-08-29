@@ -18,7 +18,7 @@ Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{
 BuildRequires:	perl-devel
 %endif
 BuildRequires:	perl(Catalyst::Runtime)
-BuildRequires:	perl(Config::Any) >= 0.04
+BuildRequires:	perl(Config::Any) >= 0.08
 BuildRequires:	perl(Data::Visitor) >= 0.02
 BuildRequires:  perl(Module::Build)
 BuildArch:	noarch
