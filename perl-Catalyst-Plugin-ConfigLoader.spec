@@ -22,6 +22,7 @@ BuildRequires:	perl(Config::Any) >= 0.08
 BuildRequires:	perl(Data::Visitor) >= 0.02
 BuildRequires:  perl(Module::Build)
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This module will attempt to load find and load a configuration file of
