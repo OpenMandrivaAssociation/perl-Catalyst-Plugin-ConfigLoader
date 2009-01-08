@@ -14,15 +14,13 @@ License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.tar.bz2
-%if %{mdkversion} < 1010
-BuildRequires:	perl-devel
-%endif
 BuildRequires:	perl(Catalyst::Runtime)
 BuildRequires:	perl(Config::Any) >= 0.08
 BuildRequires:	perl(Data::Visitor) >= 0.02
 BuildRequires:  perl(Module::Build)
+BuildRequires:  perl(MRO::Compat)
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-buildroot
+Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module will attempt to load find and load a configuration file of
