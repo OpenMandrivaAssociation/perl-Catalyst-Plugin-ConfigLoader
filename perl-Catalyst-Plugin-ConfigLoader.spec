@@ -19,6 +19,7 @@ BuildRequires:	perl(Config::Any) >= 0.08
 BuildRequires:	perl(Data::Visitor) >= 0.02
 BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(MRO::Compat)
+BuildRequires:  perl(Mouse)
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}
 
