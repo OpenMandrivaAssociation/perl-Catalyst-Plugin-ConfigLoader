@@ -1,5 +1,5 @@
 %define upstream_name	 Catalyst-Plugin-ConfigLoader
-%define upstream_version 0.24
+%define upstream_version 0.26
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Load config files of various types
 License:	Artistic/GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(Catalyst::Runtime)
 BuildRequires:	perl(Config::Any) >= 0.08
