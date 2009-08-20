@@ -1,5 +1,5 @@
 %define upstream_name	 Catalyst-Plugin-ConfigLoader
-%define upstream_version 0.26
+%define upstream_version 0.27
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
