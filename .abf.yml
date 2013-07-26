@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-ConfigLoader-0.30.tar.gz: 5b08c30693ac7e5a4c1ff6ba0aa007d7f691317f
 sources:
-  "Catalyst-Plugin-ConfigLoader-0.30.tar.gz": 5b08c30693ac7e5a4c1ff6ba0aa007d7f691317f
+  Catalyst-Plugin-ConfigLoader-0.32.tar.gz: 7cec29c130980bcb8c8810ec911029b760245506

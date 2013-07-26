@@ -1,15 +1,15 @@
 %define upstream_name	 Catalyst-Plugin-ConfigLoader
-%define upstream_version 0.30
+%define upstream_version 0.32
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.32
+Release:	1
 
 Summary:	Load config files of various types
 License:	Artistic/GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/Catalyst-Plugin-ConfigLoader-0.32.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst::Runtime)
@@ -144,4 +144,5 @@ import perl-Catalyst-Plugin-ConfigLoader-0.12-1mdv2007.0
 
 * Thu Jun 29 2006 Scott Karns <scott@karnstech.com> 0.09-1mdv2007.0
 - Initial Mandriva RPM
+
 
