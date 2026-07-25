@@ -1,16 +1,16 @@
 %define upstream_name	 Catalyst-Plugin-ConfigLoader
-%define upstream_version 0.34
+%define upstream_version 0.35
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Load config files of various types
 
 License:	Artistic/GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=catagits/Catalyst-Plugin-ConfigLoader
+Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Catalyst-Plugin-ConfigLoader-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
